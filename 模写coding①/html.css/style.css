@@ -1,0 +1,155 @@
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    line-height: 2em;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#main {
+    width: 73%;
+    float: right;
+
+}
+
+#main a {
+    color: black;
+
+}
+
+#sidebar {
+    width: 23%;
+    float: left;
+}
+
+#sidebar h2 {
+    margin-bottom: 18px;
+}
+
+#sidebar ul {
+    background-color: black;
+    list-style: none;
+}
+
+#sidebar li {
+    background-color: white;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #cccccc;}
+
+#sidebar a {
+    text-decoration: none;
+    color: black;
+    padding-left: 12px;
+}
+
+#sidebar ul li a:hover {
+
+    background-color: black;
+    color: white;
+    display: block;
+    transition: 0.5s;
+}
+
+footer {
+    
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 2em;
+    font-size: 12px
+
+}
+
+dd {
+    display: inline-block;
+    width: 85%;
+    border-bottom: 1px solid #cccccc;
+    font-size: 14px;
+
+}
+    
+dt {
+    display: inline-block;
+    width: 15%;
+    min-width: 100px;
+    border-bottom: 1px solid #cccccc;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.news {
+    height: 150px;
+    overflow-y: scroll;
+    margin-bottom: 100px;
+    padding-left: 15px;
+}
+
+#main section h2 {
+    background-color: black;
+    font-style: normal;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    color: white;
+    margin: 15px 0;
+    background-image: url(mark1.png);
+    background-position: left 10px center;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+
+}
+#main section h3 {
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    height: 38px;
+    line-height: 38px;
+    margin: 15px 0;
+    padding: 0 15px ;
+    border: 1px solid #cccccc;
+    background: linear-gradient(#fefefe, #ececec)
+
+}
+
+#main p {
+    padding: 0 15px ;
+    color: #333333;
+
+}
+
+#main h4 {
+    padding: 0 15px ;
+    font-weight: bold;
+
+}
+
+.box {
+    margin: 15px 0;
+    font-size: 16ox;
+}
+
+.box h2 {
+    padding-left: 10px;
+    border-left: solid black;
+    line-height: 1em;
+}
+
+.bg-gray {
+    background-color: #E4E4E4;
+    border: 1px solid #cccccc;
+    padding: 17px 16px
+}
+
+span {
+    background-color: #FF0000;
+    color: white;
+    font-size: 10px;
+    padding: 0 4px;
+    border-radius: 2px;
+}
